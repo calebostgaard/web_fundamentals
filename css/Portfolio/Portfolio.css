@@ -1,0 +1,159 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    width: 970px;
+    margin: 0px;
+}
+
+#mainheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    height: 80px;
+}
+
+h1 {
+    /* display: inline-block; */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    /* display: inline-block; */
+    height: 15px;
+    text-align: right;
+    padding: 30px;
+    font-family: "Arial", cursive, sans-serif;
+}
+
+#wrapper{
+    background-image: radial-gradient(#6F5A64,#1D0C11);
+    margin: 0px;
+    padding: 20px;
+    }
+
+header {
+    background-image: linear-gradient(#B1B1B5,#888794,#B1B1B5);
+    color: white;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 9px;
+    font-weight: bold;
+    font-family: "Arial", cursive, sans-serif;
+}
+
+#intro {
+    display: inline-block; 
+    margin: 0px;  
+} 
+
+p {
+    font-size: 13px;
+    font-family: "Arial", cursive, sans-serif;
+    padding: 10px;
+}
+
+#mainphoto {
+    width: 425px;
+    margin: 10px;
+    display: inline-block;
+    border: 5px solid #C0C0C0;
+    
+}
+
+#About {
+    vertical-align: top;
+    width: 425px;
+    height: 289px;
+    margin: 10px;
+    padding: 0px;
+    display: inline-block;
+    background-image: linear-gradient(#FFFFFF, #DBCEDB);
+}
+
+#continuelink{
+    padding-left: 10px;
+}
+
+.MyProjects {
+    background-image: linear-gradient(#FFFFFF, #DBCEDB);
+    display: inline-block;
+    width: 285px;
+    height: 600px;
+    vertical-align: text-top;
+    margin: 10px;
+    
+}
+
+
+.projecttext {
+    min-height: 140px;
+}
+
+.techimages img  {
+    display: inline;
+    list-style: none;
+    margin-left: 0px;
+    
+}
+
+.techicon {
+    width: 30px;
+    display: inline;
+    margin: 8px;
+}
+
+
+.technologies {
+    vertical-align: top;
+    padding-left: 0px;
+
+}
+
+
+
+.projectphoto {
+    width: 285px;
+    display: inline-block;
+}
+
+.buttoncontainer {
+    display: flex; 
+    justify-content: center;   
+}
+
+.button {
+    background-color: green;
+    font-family: "Arial", cursive, sans-serif;
+    border-radius: 10px;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    align-self: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+#Footer {
+    background-color: white;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block
+}
+
+
+.socials {
+    width: 15px;
+    display: inline-block;
+}
+
+a {
+    color: black;
+}

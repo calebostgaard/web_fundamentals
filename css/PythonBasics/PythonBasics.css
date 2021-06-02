@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    width: 970px;
+    font-family: "verdana", Times, serif;
+}
+
+/* blue divide */
+
+#bluetop{
+    background-color: #245076;
+    margin: 0px;
+    padding: 50px;
+}
+
+#mainheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+#pythonicon{
+    width: 200px;
+}
+
+#topnav{
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 200px;
+    border: 20px grey;
+    border-radius: 5px;
+    
+}
+    #topnav input{
+        width: 150px;
+    }
+
+    #topnav button{
+        width: 150px;
+    }
+
+
+#navigation{
+    background-color: #457DAD;
+    width: 960px;
+    list-style-type: none;
+    text-align: center; 
+    padding: 10px 0px 10px 0px;
+    margin: 0;
+}
+#navigation li{
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+
+
+
+#maingroup1 {
+    font-family: 
+    width: 800px;
+
+}
+
+    #nav2 {
+        display: inline-block;
+        width: 200px;
+        font: white;
+
+    }
+
+    #nav2{
+        font: white;
+
+    }
+
+    #introtext {
+        display: inline-block;
+        width: 200px;
+    }
+        #introtext h3{
+            
+        }
+
+        #descrip {
+            color: white;
+        }
+        #poem {
+            color: yellow;
+        }
+
+        #author {
+            color: white;
+        }
+
+
+
+
+
+/* white divide */
+
+#maingroup2 {
+    width: 970px;
+    height: 500px;
+    padding-top: 20px;
+    display: flex;
+
+}
+
+.infoblocks {
+    width: 400px;
+    padding: 5px;
+    border-top: 10px solid color: #73A7D5;
+}
+
+
+
+
+/* blue divide */
+
+#footer {
+    background-image: linear-gradient(#255279,#3274AB);
+    width: 970px;
+    height: 60px;
+    text-align: center; 
+    padding-top: 45px;
+    color: #7AADDA;
+
+}
+
+    #footer h3{ 
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center; 
+    }
+
+    #footer h4{ 
+        font-size: 12px;
+        font-weight: normal;
+        text-align: center; 
+        font-size: 8px;
+    padding-top: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

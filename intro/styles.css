@@ -1,0 +1,37 @@
+h1 {
+    color: indianred;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {color: blue}
+h3 {text-align: left;}
+
+.h3-center {
+    color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#my-name { 
+    font-size: 120%;
+}
+
+.green-text {
+    color: rgb(17, 238, 17);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.half-width {
+    display: inline-block;
+    width: 45%;
+
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(156, 223, 150);
+    outline: 2px dotted red
+}

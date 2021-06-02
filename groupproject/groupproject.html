@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Photo</title>
+        <link rel="stylesheet" type="text/css" href="groupproject.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){   
+                var  mn = $(".page-head");
+                mns = "page-head-scrolled";
+                hdr = $('.page-head').height();
+
+                $(window).scroll(function() {
+                if( $(this).scrollTop() > hdr ) {
+                    mn.addClass(mns);
+                } else {
+                    mn.removeClass(mns);
+                }
+                });
+                
+                $("#home").click(function(event){
+                event.preventDefault();
+                $('html, body').animate({
+                scrollTop: $("#navigation").offset().top}, 1000);
+                });
+                
+                $("#nature").click(function(event){
+                event.preventDefault();
+                $('html, body').animate({
+                scrollTop: $("#naturesection").offset().top}, 1000);
+                });
+
+                $("#street").click(function(event){
+                event.preventDefault();
+                $('html, body').animate({
+                scrollTop: $("#streetsection").offset().top}, 1000);
+                });
+
+                $("#tech").click(function(event){
+                event.preventDefault();
+                $('html, body').animate({
+                scrollTop: $("#techsection").offset().top}, 1000);
+                });
+            })
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="page-head">
+                <ul class="nav">
+                    <li id="home">Home</li>
+                    <li id="nature">Nature</li>
+                    <li id="street">Street</li>
+                    <li id="tech">Tech</li>
+                </ul>
+            </div>
+            <script data-who="💎 Made with naker.io 💎" src="https://d23jutsnau9x47.cloudfront.net/back/v1.0.9/viewer.js" data-option="{|environment|:{|gradient|:|radial|,|sensitivity|:0.3,|colorStart|:[231,223,223,1],|colorEnd|:[255,255,255,1]},|particle|:{|life|:2.3,|power|:0.034,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1566560053/circle_01.png|,|number|:396,|colorStart|:[36,36,36,0.7],|colorEnd|:[0,0,0,0.82],|sizeStart|:0.5,|sizeEnd|:1,|direction1|:{|x|:0,|y|:0,|z|:100},|direction2|:{|x|:0,|y|:0,|z|:-100}},|waterMark|:false}" data-container="header"></script>
+        </header>
+        <div id="container">
+            <h1 id="naturesection">NATURE</h1>
+            <div class="images">
+                <img src="/Nature/photo-1520828399171-5c4e25963afc.jpeg">
+                <img src="/Nature/photo-1604374846718-697e40d766a9.jpeg">
+                <img src="/Nature/photo-1605798880248-2c77e7d552cd.jpeg">
+                <img src="/Nature/photo-1596774473906-6bb2700812aa.jpeg">
+            </div>
+            <div class="images">
+                <img src="/Nature/photo-1606820152786-272f760f1d0e.jpeg">
+                <img src="/Nature/photo-1606774665059-bf53b3aac95f.jpeg">
+                <!-- <img src="/Users/ryanivers/Nature/photo-1607288610581-5a6334da4cbc.jpeg"> -->
+                <img src="/Nature/ocean.jpeg">
+                <img src="/Nature/photo-1519124142585-bc4d4d7ddb45.jpeg">
+                <!-- <img src="/Users/ryanivers/Nature/cow.jpeg"> -->
+            </div>
+            <div class="images">
+                <img src="/Nature/photo-1548195667-1d329af0a472.jpeg">
+                <img src="/Nature/naturephotos.jpeg">
+                <img src="/Nature/kayak.jpeg">
+                <img src="/Nature/sunsetcliffs.jpeg">
+            </div>
+        
+            <h1 id="streetsection">THE STREETS</h1>
+            <div class="images">
+                <img src="/TheStreets/brick.jpeg".>
+                <img src="/TheStreets/cabs.jpeg">
+                <img src="/TheStreets/read.jpeg">
+                <img src="/TheStreets/gray.jpeg">
+            </div>
+            <div class="images">
+                <img src="/TheStreets/lights.jpeg">
+                <img src="/TheStreets/mask.jpeg">
+                <img src="/TheStreets/night.jpeg">
+                <img src="/TheStreets/pho.jpeg">
+            </div>
+            <div class="images">
+                <img src="/TheStreets/red.jpeg">
+                <img src="/TheStreets/traffic.jpeg">
+                <img src="/TheStreets/trash.jpeg">
+                <img src="/TheStreets/redlights.jpeg">
+            </div>
+            <h1 id="techsection">TECHNOLOGY</h1>
+            <div class="images">
+                <img src="/Tech/cam.jpeg">
+                <!-- <img src="/Users/ryanivers/Tech/coding.jpeg"> -->
+                <img src="/Tech/desk1.jpeg">
+                <img src="/Tech/drone.jpeg">
+                <img src="/Tech/Top_view.jpg">
+            </div>
+            <div class="images">
+                <img src="/Tech/lunch.jpeg">
+                <!-- <img src="/Users/ryanivers/Tech/desk2.jpeg"> -->
+                <img src="/Tech/computer.jpeg">
+                <img src="/Tech/stand.jpeg">
+                <img id="crop"src="/Tech/mac.jpeg">
+            </div>
+            <div class="images">
+                <img src="/Tech/netflix.jpeg">
+                <img src="/Tech/great.jpeg">
+                <img src="/Tech/travel.jpeg">
+                <img src="/Tech/electric.jpeg">
+            </div>
+        </div>    
+    </body>
+
+
+
+</html>

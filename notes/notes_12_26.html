@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en=">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("#container").html("<h1>Hello</h1)")
+            $("#container").append("<h4>Add to my shopping list!</h4>")
+            // $("#container").prepend("<h1>Hello</h1)")
+            $("#add_button").click(function(){
+                // where i can write the code for what i want 
+                // to do when this button is clicked!
+                // alert("Hi there!");
+
+                
+                var x = $("#item").val();
+                if(x != ""){
+                $("#groceries").append(`<li class="grocery_item">${x}</li`)
+
+                $("#item").val("");
+                }
+
+            });
+
+            $(document).on("click", ".grocery_item", function(){
+                $(this).remove(); //this will remove the ENTIRE element that was clicked on
+            })
+
+
+            $(document).on("click", ".grocery_item", function(){
+                alert("ye bitch you be clikin")
+            })
+
+            // $(".grocery_item").click(function(){
+            //     alert("yep you click me");
+            //     // $(this).html("some text indicate strikethrough");
+            // })
+
+            // $("#item").keypress(function(){
+            //     // get the value from the input
+            //     var input = $("#item").val();
+            //     // reverse it
+            //     var reversed = "";
+
+            //     for (var i = input.length-1; i>=0; i--) {
+            //         reversed += input[i];
+            //     }
+                
+            //     // set it back into the input
+            //     $("#item").val(reversed);
+
+            // })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <h3>I'm going shopping</h3>
+        <img src="https://i2.wp.com/metro.co.uk/wp-content/uploads/2014/11/oprah-excited-gif.gif?quality=90&strip=all&zoom=1&resize=500%2C375&ssl=1" alt="excited" style="width: 200px;">
+    </div>
+    <div id="shoppinglist">
+        <div>
+            <label for="item">Item: </label>
+            <input type="text" name="item" id="item">
+            <button id="add_button">Add!</button>
+        </div>
+        <ul id="groceries"></ul>
+    </div>
+</body>
+</html>

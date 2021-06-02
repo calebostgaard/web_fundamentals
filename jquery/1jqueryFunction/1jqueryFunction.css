@@ -1,0 +1,136 @@
+#container {
+    width: 970px;
+    background-image: linear-gradient(rgb(68, 168, 255), rgb(64, 255, 0));
+    border: 5px solid black;
+    padding: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+#header{
+    font-size: 50px;
+    text-shadow: 0 0 3px white, 0 0 5px black;
+    color: white;
+}
+
+
+.function {
+    width: 950px;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+
+.function button {
+    display: inline-block;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+    background-image: linear-gradient(rgb(142, 167, 189), rgb(202, 244, 188));
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.infos {
+    display: inline-block;
+    text-align: center;
+    width: 700px;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 0 0 3px white, 0 0 5px black;
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 12px;
+    width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+    margin-bottom: 20px;
+    color:rgb(60, 65, 70);
+    text-shadow: 0 0 3px white, 0 0 5px white;
+}
+
+.infos p {
+    font-size: 18px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+#surprise {
+    height: 50px; 
+    display: none;
+    
+}
+
+#functionbox {
+    width: 950px;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+
+#functionbox button {
+    display: inline-block;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+    background-image: linear-gradient(rgb(142, 167, 189), rgb(202, 244, 188));
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.change {
+    color: red;
+}
+
+#toggleimage {
+    display: none;
+    width: 200px;
+}
+
+#fadeimg {
+    display: none;
+    width: 200px;
+}
+
+#slidedownimage {
+    display: none;
+    width: 200px;
+}
+
+h3 {
+    color:rgb(60, 65, 70);
+    text-shadow: 0 0 3px white, 0 0 5px white;
+}
+
+#val {
+    display: block;
+
+}
+
+.function input {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width: 90px;
+    height: 20px;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+#valueblock {
+    display: inline-block;
+    vertical-align: middle;
+}
